@@ -24,8 +24,3 @@ services:
       - '3001:3001'
     command: 'npm run server-dev'
 
-  # topplayer:
-  #   container_name: topplayer
-  #   build: .
-  #   depends_on:
-  #     - 'server'

@@ -2,7 +2,7 @@
 
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://mongo:27017/top_player_db', { useNewUrlParser: true });
+mongoose.connect('mongodb://172.17.0.2/16:27017/top_player_db', { useNewUrlParser: true });
 
 const songSchema = new mongoose.Schema({
   artistName: String,
